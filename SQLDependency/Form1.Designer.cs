@@ -35,8 +35,8 @@ namespace SQLDependency
             this.btnExit = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.nHANVIENTableAdapter = new NHANVIEN_CDCNPM.DSTableAdapters.NHANVIENTableAdapter();
-            this.dS = new NHANVIEN_CDCNPM.DS();
+            this.nHANVIENTableAdapter = new SQLDependency.DSTableAdapters.NHANVIENTableAdapter();
+            this.dS = new SQLDependency.DS();
             this.dSBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.nHANVIENBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
